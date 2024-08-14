@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(23, 79, 42);
+}
+
+
+.navbar {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo .logo img {
+    width: 80px;
+    height: 10vh;
+  }
+
+  .header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.incio-container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    color: rgb(25, 25, 65);
+    text-align: center;
+}
+
+.especies {
+    width: 100vw;
+    height: 150vh;
+    font-size: 50px;
+}
+
+.especies-container{
+    width: 80%;
+    height: 150vh;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.servicios {
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+}
+.servicios-container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    font-size: 50px;
+}
+
+.footer {
+    height: 10vh;
+    font-size: 50px;
+}
+  
+.medicinaimg {
+ display: flex;
+height: 200px;
+width: 250px;
+margin-left: 500px; 
+}
